@@ -4,9 +4,9 @@ Status: Em desenvolvimento
 
 # Tecnologias aplicadas:
 
-Back-end: Java Maven,JAVA Spring, SQL
-Front-end: HTML, CSS, JAVASCRIPT
-Versionamento: GIT, GITHUB
+1. Back-end: Java Maven,JAVA Spring, SQL
+2. Front-end: HTML, CSS, JAVASCRIPT
+3. Versionamento: GIT, GITHUB
 
 # Time de desenvolvedores
 
@@ -18,5 +18,5 @@ O foco do software é ajudar os usuários que desejam adquirir um aparelho de ar
 
 # Funcionalidades do sistema
 
-Calcular a capacidade do ar condicionado (Com base no comprimeto x largura do ambiente)
-Recomendar modelos de ar condicionado
+1. Calcular a capacidade do ar condicionado (Com base no comprimeto x largura do ambiente)
+2. Recomendar modelos de ar condicionado
