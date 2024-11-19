@@ -18,5 +18,5 @@ O foco do software é ajudar os usuários que desejam adquirir um aparelho de ar
 
 # Funcionalidades do sistema
 
-1. Calcular a capacidade do ar condicionado (Com base no comprimeto x largura do ambiente)
+1. Calcular a capacidade recomendada do ar condicionado para o ambiente do usuário
 2. Recomendar modelos de ar condicionado
