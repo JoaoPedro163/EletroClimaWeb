@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(to bottom, #054A8B 13%, #0880F1 87%);
+}
+
+#menu{
+    color: white;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+#conteudoEsquerdo{
+    margin: auto;
+    margin-top: 50%;
+    color: white;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    font-size: 48px;
+}
+
+#btnIndex{
+    text-align: center;
+    background-color: #2AAD2A;
+    border-radius:30px;
+    height: 63px;
+    font-size: 20px;
+    color:white;
+    width: 80%;
+    border: none;
+    margin-top: 45px;
+}

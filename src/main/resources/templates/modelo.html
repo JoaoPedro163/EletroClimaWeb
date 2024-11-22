@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <title>EletroClima - Modelo</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+        <header th:insert="cabecalho.html"></header>
+
+        <main>
+
+            <section>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-sm-6">
+                            <img/>
+                        </div>
+
+                        <div class="col-sm-6">
+
+                            <h1>RESUMO DO MODELO</h1>
+
+                            <p></p>
+                            
+                            <button class="btn btn-success">SALVAR</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+
+                <div>
+                    <h1>PRINCIPAIS CARACTERÍSTICAS DO MODELO</h1>
+                    <!--Dados do modelo serão colocados aqui via JSON-->
+                </div>
+
+
+            </section>
+        </main>
+        
+        <footer th:insert="rodape.html"></footer>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <title>EletroClima - Calcular BTUS</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}"/>
+
+        <link rel="stylesheet" th:href="@{/css/styleCalcularBtus.css}"/>
+
+        <!--Fontes da página-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet"/>
+    </head>
+
+    <body>
+
+
+        <main>
+            <section id="sctCalcular">
+
+                <header th:insert="cabecalho.html"></header>
+
+                <div class="container">
+                    
+                    <div id="divTitle">
+                        <h1 id="titleCalculo">DESCUBRA A CAPACIDADE IDEAL DE SEU AR CONDICIONADO</h1>
+                    </div>
+
+                    <div class="d-flex" id="divCalcular">
+                        
+                        <label class="form-label" for="txtLargura" id="lblLargura">LARGURA</label>
+                        <input type="number" class="form-control" id="txtLargura"/>
+
+                        <p id="pMultiplicar">X</p>
+
+                        <input type="number" class="form-control" id="txtComprimento"/>
+                        <label for="txtComprimento" id="lblComprimento">Comprimento</label>
+
+                    </div>
+
+                    <button class="btn btn-success">CALCULAR</button>
+
+                    <p><strong>A CAPACIDADE IDEAL É: 0 BTUS</strong></p>
+
+                </div>
+
+            </section>
+
+            <section>
+
+                <h1>MODELOS RECOMENDADOS</h1>
+
+                <div class="container">
+
+                    <article>
+
+                        <!--Lembrete para mim antes que eu perca o raciocínio: 
+                        Dados carregados de acordo com o id da UL-->
+
+                        <ul><!--Dados via JSON--></ul>
+                        <ul><!--Dados via JSON--></ul>
+                        <ul><!--Dados via JSON--></ul>
+
+                    </article>
+
+                </div>
+            </section>
+        </main>
+        <footer th:insert="rodape.html"></footer>
+    </body>
+</html>

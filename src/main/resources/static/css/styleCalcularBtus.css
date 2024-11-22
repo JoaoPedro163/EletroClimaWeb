@@ -1,0 +1,68 @@
+#sctCalcular{
+    background-image: linear-gradient(to bottom, #054A8B 13%, #0880F1 87%);
+    border-radius: 0px 0px 20px 20px;
+    height: 588px;
+}
+
+#menu{
+    color: white;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+#titleCalculo{
+    color: #B1B31D;
+    font-size: 36px;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+#txtLargura{
+    width: 118px;
+}
+
+#txtComprimento{
+    width: 118px;
+}
+
+#divCalcular{
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+}
+
+#lblLargura{
+    font-size: 16px;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    color: white;
+    margin-right: 5px;
+}
+
+#lblComprimento{
+    font-size: 16px;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    color: white;
+    margin-left: 5px;
+}
+
+#pMultiplicar{
+    font-size: 16px;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    color: white;
+}
+
+#txtComprimento{
+    height: 60%;
+    border-radius: 30px;
+}
+
+#txtLargura{
+    height: 60%;
+    border-radius: 30px;
+}
+
+#divCalcular{
+    margin: auto;
+}

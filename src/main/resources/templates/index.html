@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" style="height: 100%;">
+    <head>
+        <title>EletroClima - Home</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!--Estilização da página-->
+        <link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}"/>
+        <link rel="stylesheet" th:href="@{/css/styleIndex.css}"/>
+        
+        <!--Fontes da página-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet"/>
+    
+    </head>
+    <body style="height: 100%;">
+
+        <header th:insert="cabecalho.html"></header>
+
+        <main>
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-6" id="colLeft">
+                        <div id="conteudoEsquerdo">
+                            <h1>SEU SISTEMA DE REFRIGERAÇÃO NA PALMA DA SUA MÃO</h1>
+                            <button id="btnIndex">DESCUBRA O MELHOR MODELO PARA VOCÊ</button>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <img th:src="@{/images/paginaInicial.png}" style="height:900px; width:900px;"/>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
