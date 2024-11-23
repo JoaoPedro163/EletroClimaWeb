@@ -7,8 +7,8 @@
 #menu{
     color: white;
     justify-content: right;
-    margin-top: 10px;
-    font-family: 'Bowlby One SC', 'Sans-serif';
+    padding-top: 2%;
+    font-family: 'Bowlby One', 'Sans-serif';
     font-size: 12px;
 }
 
@@ -23,17 +23,17 @@
 }
 
 #txtLargura{
-    width: 118px;
+    width: 100px;
     height: 25px;
     border-radius: 30px;
-    margin-right: 10px;
+    margin-right: 2px;
 }
 
 #txtComprimento{
-    width: 118px; 
+    width: 100px;
     height: 25px;
     border-radius: 30px;
-    margin-left: 10px;
+    margin-left: 2px;
 }
 
 #divCalcular{
@@ -46,24 +46,20 @@
     font-size: 16px;
     font-family: 'Bowlby One SC', 'Sans-serif';
     color: white;
-    margin-right: 5px;
+    margin-right: 2px;
 }
 
 #lblComprimento{
     font-size: 16px;
     font-family: 'Bowlby One SC', 'Sans-serif';
     color: white;
-    margin-left: 5px;
+    margin-left: 2px;
 }
 
 #pMultiplicar{
     font-size: 16px;
     font-family: 'Bowlby One SC', 'Sans-serif';
     color: white;
-}
-
-#divBtn{
-    text-align: center;
 }
 
 #btnCalcular{
@@ -93,6 +89,28 @@
 #rodape{
     background-image: linear-gradient(to bottom, #054A8B 13%, #0880F1 87%);
     color: white;
-    font-family: 'Bowlby One SC', 'Sans-serif';
+    font-family: 'Bowlby One ', 'Sans-serif';
     font-size: 12px;
+}
+
+#col-1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#col-2{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#col-3{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#divBtn{
+    text-align: center;
 }

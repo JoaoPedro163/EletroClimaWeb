@@ -1,0 +1,17 @@
+#sctModelo{
+    background-image: linear-gradient(to bottom, #054A8B 13%, #0880F1 87%);
+    border-radius: 0px 0px 20px 20px;
+    height: 850px;
+}
+
+#menu{
+    color: white;
+    justify-content: right;
+    padding-top: 2%;
+    font-family: 'Bowlby One', 'Sans-serif';
+    font-size: 12px;
+}
+
+#rowColunas{
+    margin-top: 10%;
+}

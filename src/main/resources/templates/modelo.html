@@ -6,28 +6,28 @@
         <title>EletroClima - Modelo</title>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="stylesheet" th:href="@{/css/styleModelo.css}"/>
     </head>
 
     <body>
 
-        <header th:insert="cabecalho.html"></header>
-
         <main>
-
-            <section>
+            <section id="sctModelo">
+                <header th:insert="cabecalho.html"></header>
                 <div class="container">
-                    <div class="row">
+                    <div class="row" id="rowColunas">
 
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" id="col-1">
                             <img/>
                         </div>
 
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" id="col-2">
 
                             <h1>RESUMO DO MODELO</h1>
 
                             <p></p>
-                            
+
                             <button class="btn btn-success">SALVAR</button>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
 
             </section>
         </main>
-        
+
         <footer th:insert="rodape.html"></footer>
     </body>
 </html>
