@@ -8,6 +8,8 @@
     color: white;
     justify-content: right;
     margin-top: 10px;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    font-size: 12px;
 }
 
 #titleCalculo{
@@ -17,20 +19,27 @@
     width: 60%;
     text-align: center;
     margin: auto;
+    margin-top: 10%;
 }
 
 #txtLargura{
     width: 118px;
+    height: 25px;
+    border-radius: 30px;
+    margin-right: 10px;
 }
 
 #txtComprimento{
-    width: 118px;
+    width: 118px; 
+    height: 25px;
+    border-radius: 30px;
+    margin-left: 10px;
 }
 
 #divCalcular{
-    background-color: red;
     text-align: center;
     justify-content: center;
+    margin-top: 4%;
 }
 
 #lblLargura{
@@ -53,16 +62,37 @@
     color: white;
 }
 
-#txtComprimento{
-    height: 60%;
-    border-radius: 30px;
+#divBtn{
+    text-align: center;
 }
 
-#txtLargura{
-    height: 60%;
+#btnCalcular{
+    background-color: #1AB221;
+    width: 227px;
     border-radius: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Bowlby One SC', 'Sans-serif';
 }
 
-#divCalcular{
-    margin: auto;
+#resultadoCalculo{
+    text-align: center;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    font-size: 16px;
+    color: white;
+    margin-top: 3%;
+}
+
+#titleRecomendados{
+    text-align: center;
+    margin-top: 4%;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    font-size: 24px;
+}
+
+#rodape{
+    background-image: linear-gradient(to bottom, #054A8B 13%, #0880F1 87%);
+    color: white;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    font-size: 12px;
 }
