@@ -1,0 +1,300 @@
+[
+    {
+
+        "id": 1,
+        "modelo": "Elgin Inverter 09000 BTUS Eco Inverter II 220V",
+        "capacidade": 9000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+        "id": 2,
+        "modelo": "Elgin Inverter 12000 BTUS Eco Inverter II 220V",
+        "capacidade": 12000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 3,
+        "modelo": "Elgin Inverter 18000 BTUS Eco Inverter II 220V",
+        "capacidade": 18000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 4,
+        "modelo": "Fujitsu Inverter 18000 BTUS Eco Inverter II 220V",
+        "capacidade": 18000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 5,
+        "modelo": "Samsung Inverter 18000 BTUS Eco Inverter II 220V",
+        "capacidade": 18000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 6,
+        "modelo": "LG Inverter 18000 BTUS Eco Inverter II 220V",
+        "capacidade": 18000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 7,
+        "modelo": "Elgin Inverter 24000 BTUS Eco Inverter II 220V",
+        "capacidade": 24000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 8,
+        "modelo": "Elgin Inverter 30000 BTUS Eco Inverter II 220V",
+        "capacidade": 30000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 9,
+        "modelo": "Elgin Inverter 36000 BTUS Eco Inverter II 220V",
+        "capacidade": 36000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 10,
+        "modelo": "Fujitsu Inverter 09000 BTUS Airstage 220V",
+        "capacidade": 9000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 11,
+        "modelo": "Fujitsu Inverter 12000 BTUS Airstage 220V",
+        "capacidade": 12000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 12,
+        "modelo": "Fujitsu Inverter 18000 BTUS Airstage 220V",
+        "capacidade": 18000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 13,
+        "modelo": "Fujitsu Inverter 24000 BTUS Airstage 220V",
+        "capacidade": 24000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 14,
+        "modelo": "Fujitsu Inverter 30000 BTUS Airstage 220V",
+        "capacidade": 30000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 15,
+        "modelo": "Fujitsu Inverter 36000 BTUS Airstage 220V",
+        "capacidade": 36000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 16,
+        "modelo": "Samsung Inverter 09000 BTUS Wind-free Connect 220V",
+        "capacidade": 9000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 17,
+        "modelo": "Samsung Inverter 12000 BTUS Wind-free Connect 220V",
+        "capacidade": 12000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 18,
+        "modelo": "Samsung Inverter 24000 BTUS Wind-free Connect 220V",
+        "capacidade": 24000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 19,
+        "modelo": "Samsung Inverter 30000 BTUS Wind-free Connect 220V",
+        "capacidade": 30000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 20,
+        "modelo": "Samsung Inverter 36000 BTUS Wind-free Connect 220V",
+        "capacidade": 36000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 21,
+        "modelo": "LG Inverter 09000 BTUS Dual-Voice 220V",
+        "capacidade": 9000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 22,
+        "modelo": "LG Inverter 12000 BTUS Dual-Voice 220V",
+        "capacidade": 12000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    },
+    {
+
+        "id": 23,
+        "modelo": "LG Inverter 24000 BTUS Dual-Voice 220V",
+        "capacidade": 24000,
+        "titulo_car_1": "Tecnologia Inverter",
+        "caracteristica_1": "O Elgin Inverter Eco Inverter II utiliza a tecnologia Inverter, que ajusta automaticamente a velocidade do compressor para manter a temperatura desejada com maior eficiência. Isso proporciona uma economia de energia de até 60% em comparação com modelos convencionais, além de reduzir o ruído.",
+        "titulo_car_2": "Função Eco (Modo Econômico)",
+        "caracteristica_2": "O ar-condicionado Elgin Inverter Eco Inverter II tem a função Eco Mode, que ajusta automaticamente o funcionamento do aparelho para garantir o uso mais eficiente da energia, mantendo o conforto térmico e reduzindo o consumo de energia.",
+        "titulo_car_3": "Função Auto-Restart",
+        "caracteristica_3": "O Elgin Inverter Eco Inverter II possui a função Auto-Restart, que faz com que o aparelho retome automaticamente suas configurações anteriores (como temperatura e modo) após uma falta de energia, evitando a necessidade de ajustes manuais.",
+        "imagem": "/images/elgin.png"
+    }
+]

@@ -6,19 +6,29 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}"/>
+
+        <!--CSS da página-->
+        <link rel="stylesheet" th:href="@{/css/styleListagemModelos.css}"/>
+
+        <!--Fontes-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet"/>
+
     </head>
     <body>
 
         <header>
-            <div class="row">
-                <img/>
+            <div class="row" id="rowLogo">
+                <img th:src="@{/images/logoOficial.png}" style="width: 90px; height: 74px;"/>
             </div>
 
             <div class="row">
-                <nav class="d-flex">
+                <nav class="d-flex"id="menuListagem">
                     <p><strong>PÁGINA INICIAL</strong></p>
-                    <p><strong>CALCULAR BTUS</strong></p>
-                    <p><strong>MODELOS</strong></p>
+                    <p class="ms-5"><strong>CALCULAR BTUS</strong></p>
+                    <p class="ms-5"><strong>MODELOS</strong></p>
+                    <p class="ms-5"><strong>MEUS MODELOS</strong></p>
                 </nav>
             </div>
         </header>
@@ -26,28 +36,37 @@
         <main>
             <div class="container">
 
-                <h1>MEUS MODELOS</h1>
+                <h1 id="titleTabela">MEUS MODELOS</h1>
 
-                <table class="table table-bordered">
-                    
+                <table class="table table-bordeless" id="tblModelos">
+
                     <thead>
-                    
-                        <tr>
-                            <th></th>
-                            <th>NOME</th>
-                            <th>Ambiente</th>
-                            <th>Capacidade</th>
+
+                        <tr style="text-align: center;">
+                            <th style="font-family: 'Bowlby One SC', 'Sans-serif'; font-size: 20px;">IMAGEM</th>
+                            <th style="font-family: 'Bowlby One SC', 'Sans-serif'; font-size: 20px;">MODELO</th>
+                            <th style="font-family: 'Bowlby One SC', 'Sans-serif'; font-size: 20px;">AMBIENTE</th>
+                            <th style="font-family: 'Bowlby One SC', 'Sans-serif'; font-size: 20px;">CAPACIDADE</th>
                         </tr>
-                
+
                     </thead>
-                    
-                    <tbody>
-                        
+
+                    <tbody style="text-align: center;">
+
                     </tbody>
-                
+
                 </table>
             </div>
         </main>
         <footer th:insert="rodape.html"></footer>
+
+        <script th:src="@{/js/jQuery.js}"></script>
+        <script th:src="@{/js/script.js}"></script>
+        <script>
+            $(document).ready(function () {
+                                
+
+            });
+        </script>
     </body>
 </html>

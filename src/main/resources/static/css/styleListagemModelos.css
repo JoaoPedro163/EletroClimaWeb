@@ -1,43 +1,28 @@
-#sctModelo{
+header{
     background-image: linear-gradient(to bottom, #054A8B 13%, #0880F1 87%);
-    border-radius: 0px 0px 20px 20px;
-    height: 720px;
-}
-
-#menu{
     color: white;
-    justify-content: right;
-    padding-top: 2%;
-    font-family: 'Bowlby One', 'Sans-serif';
-    font-size: 12px;
 }
 
-#rowColunas{
-    margin-top: 10%;
-}
-
-#rowImagemModelo{
-    margin-top: 10%;
-    text-align: center;
+#menuListagem{
     justify-content: center;
+    margin-top: 1%;
 }
 
-#titleCaracteristicas{
-    text-align: center;
+#rowLogo{
+    justify-content: center;
+    padding-top: 1%;
+}
+
+#titleTabela{
     font-family: 'Bowlby One SC', 'Sans-serif';
     color: #4A4A46;
     font-size: 36px;
+    text-align: center;
     margin-top: 5%;
 }
 
-.p{
-    font-family: 'Book Antiqua', 'Sans-serif';
-    font-size: 24px;
-}
-
-.h3{
-    font-family: 'Bookshelf Symbol 7', 'Sans-serif';
-    font-size: 36px;
+#tblModelos{
+    margin-top: 4%;
 }
 
 #rodape{

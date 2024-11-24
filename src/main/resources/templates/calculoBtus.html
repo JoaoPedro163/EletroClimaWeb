@@ -48,7 +48,7 @@
                             <button class="btn btn-success" id="btnCalcular">CALCULAR</button>
                         </div>
 
-                        <p id="resultadoCalculo"><strong>A CAPACIDADE IDEAL É: 0 BTUS</strong></p>
+                        <p id="resultadoCalculo"><strong>A CAPACIDADE IDEAL É: <span id="spnResultado"></span> BTUS</strong></p>
 
                     </div>
 
@@ -58,18 +58,11 @@
 
             <section>
 
-                <h1 id="titleRecomendados">MODELOS RECOMENDADOS</h1>
+                <h1 id="titleRecomendados" style="margin-bottom: 2%">MODELOS RECOMENDADOS</h1>
 
                 <div class="container">
 
-                    <article>
-
-                        <!--Lembrete para mim antes que eu perca o raciocínio: 
-                        Dados carregados de acordo com o id da UL-->
-
-                        <ul><!--Dados via JSON--></ul>
-                        <ul><!--Dados via JSON--></ul>
-                        <ul><!--Dados via JSON--></ul>
+                    <article id="listarModelos">
 
                     </article>
 
@@ -77,5 +70,13 @@
             </section>
         </main>
         <footer th:insert="rodape.html"></footer>
+        <script th:src="@{/js/jQuery.js}"></script>
+        <script th:src="@{/js/script.js}"></script>
+        
+        <script>
+            $(document).ready(function(){
+                carregarModelos();
+            });
+        </script>
     </body>
 </html>
