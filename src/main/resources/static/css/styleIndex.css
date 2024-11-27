@@ -37,3 +37,24 @@ main{
     margin: auto;
     margin-top: 2%;
 }
+
+#nvCalcular{
+    text-decoration: none;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    font-size: 12px;
+    color:white;
+}
+
+#nvMeusModelos{
+    text-decoration: none;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    font-size: 12px;
+    color:white;
+}
+
+#nvIndex{
+    text-decoration: none;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    font-size: 12px;
+    color:white;
+}

@@ -1,7 +1,6 @@
 #sctModelo{
     background-image: linear-gradient(to bottom, #054A8B 13%, #0880F1 87%);
     border-radius: 0px 0px 20px 20px;
-    height: 720px;
 }
 
 #menu{
@@ -13,7 +12,7 @@
 }
 
 #rowColunas{
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 #rowImagemModelo{
@@ -30,9 +29,11 @@
     margin-top: 5%;
 }
 
-.p{
-    font-family: 'Book Antiqua', 'Sans-serif';
+#resumoModelo{
+    font-family: 'Braah One', 'Sans-serif';
     font-size: 24px;
+    color:white;
+    text-align: left;
 }
 
 .h3{
@@ -63,4 +64,64 @@
     text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+#titleResumo{
+    font-family: "Bowlby One SC", "Sans-serif";
+    font-size: 36px;
+    color: #B1B31D;
+}
+
+#btnSalvarModelo{
+    width: 283px;
+    height: 54px;
+    background-color: #1AB221;
+    color:white;
+    font-family: "Bowlby One SC", "Sans-serif";
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.subTitles{
+    font-family: 'Braah One', 'Sans-serif';
+    font-size: 36px;
+    color: #4A4A46;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.caracteristicas{
+    font-family: 'Bricolage Grotesque', 'Sans-serif';
+    font-size: 24px;
+    color: #4A4A46;
+    text-align: left;
+    margin-top: 3%;
+}
+
+.imagensCaracteristicas{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+#nvCalcular{
+    text-decoration: none;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    font-size: 12px;
+    color:white;
+}
+
+#nvMeusModelos{
+    text-decoration: none;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    font-size: 12px;
+    color:white;
+}
+
+#nvIndex{
+    text-decoration: none;
+    font-family: 'Bowlby One SC', 'Sans-serif';
+    font-size: 12px;
+    color:white;
 }

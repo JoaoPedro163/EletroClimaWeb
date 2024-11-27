@@ -31,19 +31,26 @@
                         <div id="divTitle">
                             <h1 id="titleCalculo">DESCUBRA A CAPACIDADE IDEAL DE SEU AR CONDICIONADO</h1>
                         </div>
-
+                        
+                        <div id="divSpan">
+                            <span style="text-align: center;">Qual o tamanho do ambiente ?</span>
+                        </div>
+                        
                         <div class="d-flex" id="divCalcular">
+                            
                             <div id="divLblLargura">
                                 <label class="form-label" for="txtLargura" id="lblLargura">LARGURA</label>
                             </div>
+                            
                             <input type="number" class="form-control" id="txtLargura"/>
 
                             <p id="pMultiplicar">X</p>
 
                             <input type="number" class="form-control" id="txtComprimento"/>
                             <label for="txtComprimento" id="lblComprimento">Comprimento</label>
+                            
                         </div>
-                        
+
                         <div id="divBtn">
                             <button class="btn btn-success" id="btnCalcular">CALCULAR</button>
                         </div>
@@ -72,9 +79,9 @@
         <footer th:insert="rodape.html"></footer>
         <script th:src="@{/js/jQuery.js}"></script>
         <script th:src="@{/js/script.js}"></script>
-        
+
         <script>
-            $(document).ready(function(){
+            $(document).ready(function () {
                 carregarModelos();
             });
         </script>

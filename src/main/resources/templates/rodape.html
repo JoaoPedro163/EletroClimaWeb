@@ -22,14 +22,25 @@
                     <div class="col-sm-4" id="col-2">
                         <p><strong>CONTATO: 00 00000-0000</strong></p>
                         <p><strong>ELETROCLIMA.AR@HOTMAIL.COM</strong></p>
-                        <p><strong>REDES SOCIAIS: </strong><img th:src="@{/images/logo-instagram.png}" style="width:22px; height:22px;"/> <img th:src="@{/images/logo-facebook.png}" alt="alt" style="width:22px; height:22px;"/> <img  th:src="@{/images/logo-x.png}" style="width:22px; height:22px;"/></p>
+                        <p>
+                            <strong>REDES SOCIAIS: </strong>
+                            <a href="https://www.instagram.com/eletroclima.souza/">
+                                <img th:src="@{/images/logo-instagram.png}" style="width:22px; height:22px;" /> 
+                            </a>
+                            <a href="https://www.facebook.com/eletoclima/">
+                                <img th:src="@{/images/logo-facebook.png}" alt="alt" style="width:22px; height:22px;"/>
+                            </a>
+                            <a href="https://x.com/"> 
+                                <img  th:src="@{/images/logo-x.png}" style="width:22px; height:22px;"/>
+                            </a>
+                        </p>
                     </div>
 
                     <div class="col-sm-4" id="col-3">
-                        <nav>
-                            <p>PÁGINA INICIAL</p>
-                            <p>CALCULO BTUS</p>
-                            <p>MODELOS</p>
+                        <nav class="d-flex flex-column">
+                            <a th:href="@{/eletroclima}" id="nvIndex">PÁGINA INICIAL</a>
+                            <a id="nvCalcular" th:href="@{/calculo-btus}">CALCULAR BTUS</a>
+                            <a id="nvMeusModelos" th:href="@{/listagem-modelos}">MEUS MODELOS</a>
                         </nav>
                     </div>
 

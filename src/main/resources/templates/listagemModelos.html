@@ -2,7 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
     <head>
-        <title>TODO supply a title</title>
+        <title>EletroClima - Meus Modelos</title>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}"/>
@@ -25,10 +25,9 @@
 
             <div class="row">
                 <nav class="d-flex"id="menuListagem">
-                    <p><strong>PÁGINA INICIAL</strong></p>
-                    <p class="ms-5"><strong>CALCULAR BTUS</strong></p>
-                    <p class="ms-5"><strong>MODELOS</strong></p>
-                    <p class="ms-5"><strong>MEUS MODELOS</strong></p>
+                    <a th:href="@{/eletroclima}" id="nvIndex">PÁGINA INICIAL</a>
+                    <a class="ms-5" id="nvCalcular" th:href="@{/calculo-btus}">CALCULAR BTUS</a>
+                    <a class="ms-5" id="nvMeusModelos" th:href="@{/listagem-modelos}">MEUS MODELOS</a>
                 </nav>
             </div>
         </header>
@@ -52,7 +51,14 @@
                     </thead>
 
                     <tbody style="text-align: center;">
-
+                        <tr th:each="modelo : ${listaMeusModelos}">
+                            <td>
+                                <img th:src="@{${modelo.urlImagem}}" width="166px" height="163px"/>
+                            </td>
+                            <td th:text="${modelo.modelo}"></td>
+                            <td th:text="${modelo.ambiente}"></td>
+                            <td th:text="${modelo.capacidade}"></td>
+                        </tr>
                     </tbody>
 
                 </table>
@@ -62,11 +68,5 @@
 
         <script th:src="@{/js/jQuery.js}"></script>
         <script th:src="@{/js/script.js}"></script>
-        <script>
-            $(document).ready(function () {
-                                
-
-            });
-        </script>
     </body>
 </html>

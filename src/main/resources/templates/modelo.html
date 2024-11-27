@@ -8,6 +8,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
         <link rel="stylesheet" th:href="@{/css/styleModelo.css}"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+        <link href="https://fonts.googleapis.com/css2?family=Braah+One&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet"/>
     </head>
 
     <body>
@@ -19,30 +27,64 @@
                     <div class="row" id="rowColunas">
 
                         <div class="col-sm-6" id="col-1">
-                            <img/>
+                            <img th:src="@{${modelo.urlImagem}}" width="80%" height= "80%";/>
+                            <input type="hidden" id="txtUrlImagem" th:field="${modelo.urlImagem}"/>
                         </div>
 
                         <div class="col-sm-6" id="col-2">
 
-                            <h1>RESUMO DO MODELO</h1>
+                            <h1 id="titleResumo">RESUMO DO MODELO</h1>
 
-                            <p></p>
+                            <p id="resumoModelo" th:text="${modelo.resumo}"></p>
 
-                            <button class="btn btn-success">SALVAR</button>
-                            
+                            <button id="btnSalvarModelo" class="btn btn-success">SALVAR</button>
+
                         </div>
-                    </div>
-                    <div class="row" id="rowImagemModelo">
-                        <img th:src="@{/images/Seta.png}" style="width:100px; height:70px;"/>
                     </div>
                 </div>
             </section>
 
             <section>
+                <div class="container">
+                    <div id="divCaracteristicas">
 
-                <div id="divCaracteristicas">
-                    <h1 id="titleCaracteristicas">PRINCIPAIS CARACTERÍSTICAS DO MODELO</h1>
-                    <!--Dados do modelo serão colocados aqui via JSON-->
+                        <h1 id="titleCaracteristicas">PRINCIPAIS CARACTERÍSTICAS DO MODELO</h1>
+
+                        <input type="hidden" id="txtModelo" th:field="${modelo.modelo}"/>
+                        
+                        <input type="hidden" id="txtId" th:field="${modelo.id}"/>
+
+                        <input type="hidden" id="txtAmbiente" th:field="${modelo.ambiente}"/>
+                        
+                        <input type="hidden" id="txtCapacidade" th:field="${modelo.capacidade}"/>
+                        
+                        <h3 th:text="${modelo.titulo_car_1}" class="subTitles" id="subTitle1"></h3>
+
+                        <p th:text="${modelo.caracteristica_1}" class="caracteristicas" id="caracteristica1"></p>
+
+                        <div id="divImagemCar1" class="imagensCaracteristicas">
+                            <img th:src="@{${modelo.url_imagem_car_1}}" height="80%" width="80%"/>
+
+                        </div>
+
+                        <h3 id="subTitle2" class="subTitles" th:text="${modelo.titulo_car_2}"></h3>
+
+                        <p id="caracteristica2" class="caracteristicas" th:text="${modelo.caracteristica_2}"></p>
+
+                        <div id="divImagemCar2" class="imagensCaracteristicas">
+                            <img th:src="@{${modelo.url_imagem_car_2}}" width="80%" height="80%"/>
+                        </div>
+
+
+                        <h3 id="subTitle3" class="subTitles" th:text="${modelo.titulo_car_3}"></h3>
+
+                        <p id="caracteristica3" class="caracteristicas" th:text="${modelo.caracteristica_3}"></p>
+
+                        <div class="imagensCaracteristicas">
+                            <img th:src="@{${modelo.url_imagem_car_3}}" width="80%" height="80%"/>
+                        </div>
+                    </div>
+
                 </div>
 
 
@@ -50,5 +92,7 @@
         </main>
 
         <footer th:insert="rodape.html"></footer>
+        <script th:src="@{/js/jQuery.js}"></script>
+        <script th:src="@{/js/script.js}"></script>
     </body>
 </html>

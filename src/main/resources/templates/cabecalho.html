@@ -14,10 +14,9 @@
             <div class="container">
                 <div class="row" id="rowCabecalho">
                     <nav class="d-flex" id="menu">
-                        <p>PÁGINA INICIAL</p>
-                        <p class="ms-5">CALCULAR BTUS</p>
-                        <p class="ms-5">MODELOS</p>
-                        <p class="ms-5">MEUS MODELOS</p>
+                        <a th:href="@{/eletroclima}" id="nvIndex">PÁGINA INICIAL</a>
+                        <a class="ms-5" id="nvCalcular" th:href="@{/calculo-btus}">CALCULAR BTUS</a>
+                        <a class="ms-5" id="nvMeusModelos" th:href="@{/listagem-modelos}">MEUS MODELOS</a>
                     </nav>
 
                 </div>
