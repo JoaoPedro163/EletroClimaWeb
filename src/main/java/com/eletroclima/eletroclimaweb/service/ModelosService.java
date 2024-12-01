@@ -1,5 +1,7 @@
 package com.eletroclima.eletroclimaweb.service;
 
+import com.eletroclima.eletroclimaweb.model.MeusModelos;
+import com.eletroclima.eletroclimaweb.model.MeusModelosRepository;
 import com.eletroclima.eletroclimaweb.model.Modelo;
 import com.eletroclima.eletroclimaweb.model.ModelosRepository;
 import java.util.List;
@@ -8,19 +10,30 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ModelosService {
-    
+
     @Autowired
     private ModelosRepository modelosRepository;
-    
-    public Modelo getModeloId(Integer id){
+    @Autowired
+    private MeusModelosRepository meusModelosRepository;
+
+    public Modelo getModeloId(Integer id) {
         return modelosRepository.findById(id).orElse(null);
     }
-    
-    public List<Modelo> getAllModelos(){
+
+    public List<Modelo> getAllModelos() {
         return modelosRepository.findAll();
     }
-    
-    public Modelo addModelos(Modelo modelo){
-        return modelosRepository.save(modelo);
+
+    public MeusModelos addMeusModelos(MeusModelos modelo) {
+        modelo.setId(null);
+        return meusModelosRepository.save(modelo);
+    }
+
+    public List<MeusModelos> getAllMeusModelos() {
+        return meusModelosRepository.findAll();
+    }
+
+    public void deletarModelo(Integer id) {
+        modelosRepository.deleteById(id);
     }
 }

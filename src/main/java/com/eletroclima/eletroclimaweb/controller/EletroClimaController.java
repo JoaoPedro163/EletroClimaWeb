@@ -18,17 +18,21 @@ public class EletroClimaController {
     private List<Modelo> listaModelos = new ArrayList<>();
     private List<Modelo> listaMeusModelos = new ArrayList<>();
 
+    
+    //Abrir página inicial
     @GetMapping("/eletroclima")
     public String abrirIndex() {
         return "index";
     }
 
+    //Adicionar modelos selecionados na lista
     @PostMapping("/adicionar-meus-modelos")
     public String adicionarMeusModelos(@RequestBody Modelo modelo) {
         listaMeusModelos.add(modelo);
         return "redirect:/listagem-modelos";
     }
 
+    //Adiciona todos os modelos do JSON na lista
     @PostMapping("/adicionar-modelos")
     public String adicionarModelos(@RequestBody Modelo modelo) {
         listaModelos.add(modelo);
@@ -36,11 +40,13 @@ public class EletroClimaController {
         return "redirect:/calculo-btus";
     }
 
+    //Abrir tela de calcular-btus
     @GetMapping("/calculo-btus")
     public String abrirCalculo() {
         return "calculoBtus";
     }
 
+    //Abrir tela de modelos e encontra o modelo selecionado a partir do id passado pela url
     @GetMapping("/abrir-modelo")
     public String modelo(@RequestParam String id, Model model) {
 
@@ -57,9 +63,9 @@ public class EletroClimaController {
         return "modelo";
     }
 
+    //Abir tela de listagem de modelos salvos
     @GetMapping("/listagem-modelos")
-    public String abrirListagem(Model model) {
-        model.addAttribute("listaMeusModelos",  listaMeusModelos);
+    public String abrirListagem() {
         return "listagemModelos";
     }
 }

@@ -1,18 +1,20 @@
 $(document).ready(function () {
 
-    function carregarMeusModelos(modelo) {
+    carregarMeusModelos();
+    //Salva o modelo selecionado na lista na controller e direciona para a listagem de modelos
+    function salvarMeusModelos(modelo) {
         $.ajax({
-            url: '/adicionar-meus-modelos',
+            url: 'http://localhost:8080/modelos/adicionar-meus-modelos',
             method: 'POST',
             contentType: 'application/json',
             data: JSON.stringify({
-                id: modelo.id,
                 modelo: modelo.modelo,
                 capacidade: modelo.capacidade,
                 ambiente: modelo.ambiente,
                 urlImagem: modelo.urlImagem
             }),
             success: function (data) {
+                carregarMeusModelos();
                 window.location.href = "/listagem-modelos";
             },
             error: function (err) {
@@ -22,6 +24,7 @@ $(document).ready(function () {
         });
     }
 
+    //Calcula a quantidade de btus necessárias para o ambiente
     $('#btnCalcular').click(function () {
 
         let comprimento = $('#txtComprimento').val();
@@ -30,6 +33,8 @@ $(document).ready(function () {
 
         if (!comprimento || !largura) {
             alert("Preencha todos os campos");
+        } else if (comprimento < 0 || largura < 0) {
+            alert("Insira um valor maior que 0");
         } else {
             let total = comprimento * largura;
 
@@ -57,6 +62,7 @@ $(document).ready(function () {
         }
     });
 
+    //Carrega os modelos do JSON de acordo com o resultado de btus calculados
     function carregarModelos(btus) {
         $.ajax({
             url: '/js/dados.json',
@@ -72,6 +78,7 @@ $(document).ready(function () {
 
                     let modelos = data[i];
 
+                    //Se o resultado o btus recebido for maior ou igual 60000 btus será exibido um modelo de 60.000 BTUS
                     if (btus >= 60000 || btus > 36000 && btus < 60000) {
                         if (modelos.capacidade >= 60000) {
                             let linkImagem = $('<a>', {
@@ -119,7 +126,7 @@ $(document).ready(function () {
 
                             row.append(col1);
                         }
-                    }else {
+                    } else {
 
                         if (modelos.capacidade == btus) {
 
@@ -179,10 +186,12 @@ $(document).ready(function () {
         });
     }
 
+    //Abrir tela de calcular btus
     $('#btnIndex').click(function () {
         window.location.href = '/calculo-btus';
     });
 
+    //Pega todos os modelos do JSON e adiciona na lista na controller. Depois abre o modelo selecionado de acordo com o id do modelo passado
     function carregarModelosJSON(modelo) {
         $.ajax({
             url: '/adicionar-modelos',
@@ -215,6 +224,7 @@ $(document).ready(function () {
         });
     }
 
+    //Pega os dados do modelo selecionado e envia para função salvarMeusModelos
     $('#btnSalvarModelo').click(function () {
 
         let id = $('#txtId').val();
@@ -228,14 +238,59 @@ $(document).ready(function () {
         let urlImagem = $('#txtUrlImagem').val();
 
         let modeloSelecionado = {
-            id: id,
             modelo: modelo,
             ambiente: ambiente,
             capacidade: capacidade,
             urlImagem: urlImagem
         };
 
-        carregarMeusModelos(modeloSelecionado);
+        salvarMeusModelos(modeloSelecionado);
     });
 
+
+    function carregarMeusModelos() {
+        $.ajax({
+            url: 'http://localhost:8080/modelos/listar-meus-modelos',
+            method: 'GET',
+            success: function (data) {
+                alert("Dados carregados com sucesso");
+
+                $('#tblModelos tbody').empty();
+
+                for (let i = 0; i < data.length; i++) {
+                    let meuModelo = data[i];
+                    
+                    alert(meuModelo.id);
+                    
+                    let id = $('<td>').text(meuModelo.id);
+
+                    let baseUrl = 'http://localhost:8080';
+
+                    let urlCompleta = baseUrl + meuModelo.urlImagem;
+
+                    let modelo = $('<td>').text(meuModelo.modelo);
+
+                    let capacidade = $('<td>').text(meuModelo.capacidade);
+
+                    let ambiente = $('<td>').text(meuModelo.ambiente);
+
+                    let img = $('<img>', {
+                        src: urlCompleta
+                    }).css({
+                        width: '166px',
+                        height: '163px'
+                    });
+                    
+                    let imagem = $('<td>').append(img);
+                    
+                    let tr = $('<tr>').attr('data-id', meuModelo.id).append(imagem).append(modelo).append(ambiente).append(capacidade);
+                    
+                    $('#tblModelos tbody').append(tr);
+                }
+            },
+            error: function () {
+                alert("Não foi possível carregar os seus modelos salvos");
+            }
+        });
+    }
 });
