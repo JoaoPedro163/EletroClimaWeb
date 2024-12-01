@@ -20,6 +20,10 @@ public class ModelosService {
         return modelosRepository.findById(id).orElse(null);
     }
 
+    public MeusModelos getMeusModelosId(Integer id){
+        return meusModelosRepository.findById(id).orElse(null);
+    }
+    
     public List<Modelo> getAllModelos() {
         return modelosRepository.findAll();
     }
@@ -34,6 +38,7 @@ public class ModelosService {
     }
 
     public void deletarModelo(Integer id) {
-        modelosRepository.deleteById(id);
+        MeusModelos m = getMeusModelosId(id);
+        meusModelosRepository.deleteById(m.getId());
     }
 }
